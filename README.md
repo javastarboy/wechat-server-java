@@ -108,9 +108,9 @@ api:
     }
     
     # wechat-server 微信登录
-    location /api/wechat/qrcode {
+    location /api/wechat {
         proxy_http_version 1.1;
-        proxy_pass http://localhost:3080/api/wechat/qrcode;
+        proxy_pass http://localhost:3080/api/wechat;
         proxy_set_header Host $host;
         proxy_set_header X-Forwarded-For $remote_addr;
         proxy_cache_bypass $http_upgrade;
