@@ -17,7 +17,7 @@ wx:
 api:
   token: xxxxxxxxxx
   send-code-keyword: 验证码
-  code-template: "您正在登录 FanStars API, 验证码是: ${code}"
+  code-template: "您正在登录领航AGI大模型聚合平台, 请将验证码录入到页面中点击提交，您当前的验证码是: ${code}"
   code-length: 6
   code-expire-time: 300000
   width: 300
