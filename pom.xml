@@ -19,7 +19,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <weixin-java.version>4.5.0</weixin-java.version>
+        <weixin-java.version>4.6.0</weixin-java.version>
         <zxing-core.version>3.2.1</zxing-core.version>
         <fastjson.version>2.0.25</fastjson.version>
     </properties>
